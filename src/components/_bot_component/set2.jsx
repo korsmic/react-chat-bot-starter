@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import BotMessage from '../loc/bot_message'
 import ImageSelect from '../loc/image_select';
 import { GridList } from 'material-ui/GridList';
-import ReactSwipe from 'react-swipe';
 
 const styles = {
   root: {

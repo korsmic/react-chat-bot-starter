@@ -19,14 +19,9 @@ class App extends Component {
     this.state = {
       messages: [],
       from: 'user',
-      yID: "",
-			yImagePath: "",
-			yName: "",
-			yText: ""
     };
     this.sendMessage = this.sendMessage.bind(this);
     this.recieveMessage = this.recieveMessage.bind(this);
-
   }
 
   addMessage(message) {

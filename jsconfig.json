@@ -1,6 +1,11 @@
 {
   "conpilerOptions": {
     "target": "ES6",
-    "module": "commonjs"
-  }
+    "module": "commonjs",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true 
+  },
+  "exclude": [
+      "node_modules"
+  ]
 }

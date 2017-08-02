@@ -14,7 +14,6 @@ class StarCard extends Component {
         <div className="start_images">
           <img src="../src/images/okami.jpg" />
         </div>
-        
 			</div>
 		);
 	}

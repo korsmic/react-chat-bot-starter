@@ -8,7 +8,7 @@ class SetTest extends Component{
     super(props);
     
   }
-  
+
 
   render(){
     return(
@@ -16,18 +16,6 @@ class SetTest extends Component{
         <div key="ansewer1" className="bot-message">
           <div className="message">あなたにぴったりの宿はこちら</div>
         </div>
-        <Card>
-					<CardMedia
-						overlay={
-							<CardTitle
-                title={props.yName}
-                subtitle={props.yText}
-							/>
-						}
-					>
-						<img src={props.yImagePath} />
-					</CardMedia>
-				</Card>
       </div>
     );
   }

@@ -6,13 +6,6 @@ const Set5 = (props) => {
     <div key={props.index}>
       <BotMessage botmessage="あなたのイメージの好みはバッチリわかりました。" />
       <BotMessage botmessage="では次の質問です。" />
-      <BotMessage botmessage="どちらかといえばあなたはどっち？" />
-      <div className="bot-message">
-        <div className="message">
-          Ａ.直感を信じる<br/>
-          Ｂ.論理を信じる
-        </div>
-      </div>
     </div>
   );
 }
