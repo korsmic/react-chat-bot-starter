@@ -6,16 +6,11 @@ import {Card, CardActions, CardHeader, CardMedia, CardTitle} from 'material-ui/C
 
 import BotMessage from './loc/bot_message';
 import UserButton from './loc/user_button';
-import Matrix3 from './loc/matrix3';
 
 
 // _bot_component
 import Set2 from './_bot_component/set2';
 import Set3 from './_bot_component/set3';
-import Set5 from './_bot_component/set5';
-import SetAnswer from './_bot_component/setanswer';
-
-
 
 class ChatMessageComposer extends Component {
 
@@ -97,39 +92,11 @@ class ChatMessageComposer extends Component {
       case "1":
         return (
           <div className="chat-input-box">
-            <UserButton Ustage={"2"} Uval={"OK!"} handleClick={this.handleClick.bind(this)} botClick={"set2"} />
+            <UserButton Ustage={"2"} Uval={"OK!"} handleClick={this.handleClick.bind(this)} botClick={"set3"} />
           </div>
         );
 
       case "2":
-        return (
-          <div className="chat-input-box">
-            <UserButton Ustage={"4"} Uval={"OK!"} handleClick={this.handleClick.bind(this)} botClick={"set3"} />
-          </div>
-        );
-
-      case "3":
-        return (
-          <div className="chat-input-box">
-            <UserButton Ustage={"4"} Uval={"OK!"} handleClick={this.handleClick.bind(this)} botClick={"set3"} />
-          </div>
-        );
-      
-      case "4":
-        return (
-          <div className="chat-input-box">
-            <UserButton Ustage={"5"} Uval={"イメージ8が好き"} handleClick={this.handleClick.bind(this)} botClick={["set5"]} />
-          </div>
-        );
-
-      case "5":
-        return (
-          <div className="chat-input-box">
-            <UserButton Ustage={"test"} Uval={"B"} handleClick={this.handleClick.bind(this)} botClick={["あなたの好みはバッチリわかりました。"]} />
-          </div>
-        );
-
-      case "15":
         return (
           <div className="chat-input-box">
             <UserButton Ustage={"0"} Uval={"閉じる"} handleClick={this.handleClick.bind(this)} botClick={"...|ω・`）ﾁﾗ"} />

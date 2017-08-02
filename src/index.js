@@ -55,7 +55,7 @@ class App extends Component {
       <MuiThemeProvider muiTheme={getMuiTheme()}>
         <div className="wrap">
           <div className="wrapper">
-            <AppBar title="YadokenAI"
+            <AppBar title="FAQ Chat Bot"
               showMenuIconButton={false}
             />
             <ChatHistory messages={this.state.messages} />

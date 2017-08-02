@@ -1,5 +1,12 @@
 # ReactRecomendChatBot
 ---
+## How to Use
+
+- npm install
+- npm start
+- http://localhost:8080/
+
+---
 ## command
 
 ### npm
@@ -16,5 +23,4 @@
   - `loc`には各パーツのComponentを格納
   - `_bot_component`では、botの返信の内容を格納
 
----
 ---

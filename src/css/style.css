@@ -62,48 +62,6 @@ body {
   margin: auto;
   height: 90%; }
 
-.indexBody {
-  width: 100%;
-  height: 100%;
-  background: url(../images/1000.jpg);
-  background-repeat: no-repeat;
-  background-position: center center; }
-  .indexBody a {
-    position: fixed;
-    right: 50px;
-    bottom: 50px;
-    width: 100px;
-    height: 100px;
-    display: block;
-    background-color: #5383ec;
-    border-radius: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
-    .indexBody a img {
-      width: 60%; }
-
-.lity-iframe .lity-container {
-  width: 90%;
-  height: 80%;
-  max-width: none; }
-
-.lity-iframe-container {
-  height: 80vh; }
-
-@media screen and (max-width: 600px) {
-  .wrapper {
-    width: 100%; }
-  .indexBody {
-    background-size: cover !important; } }
-
 #wrap {
   height: 100%;
   width: 100%;
@@ -245,10 +203,6 @@ body {
     position: relative;
     border-radius: 5px; }
 
-.setstate-button {
-  width: 80%;
-  margin: 0 auto 20px !important; }
-
 .caution {
   font-size: 0.8em;
   padding: 0 1.0em 1.0em; }
@@ -321,210 +275,8 @@ body {
       .chat-input-box .chat-input button:disabled {
         color: #B3B3B3; }
 
-.recomendBoxs {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%; }
-  .recomendBoxs .recomendBox {
-    border: 1px solid #333333;
-    border-radius: 10px;
-    text-align: center;
-    padding: 20px;
-    background-color: #eee;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-right: 20px; }
-    .recomendBoxs .recomendBox a {
-      text-decoration: none;
-      color: #333333;
-      text-align: center;
-      transition: 1s; }
-      .recomendBoxs .recomendBox a:hover {
-        text-decoration: underline; }
-
-.image-select-Box2 {
-  overflow: auto;
-  width: 100%; }
-
-.image-select {
-  width: 49%; }
-
-.image-select-Box2 > div > div {
-  width: 49% !important; }
-  .image-select-Box2 > div > div img {
-    width: 100%; }
-
-.image-select-Box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%; }
-  .image-select-Box h5 {
-    padding: 0 16px;
-    font-size: 18px;
-    margin: 18px 0 0; }
-  .image-select-Box .image-select {
-    margin-right: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100%;
-    -webkit-transform: translateZ(0px);
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    background: #B3B3B3; }
-    .image-select-Box .image-select p {
-      margin: auto; }
-
-.fadingText-enter {
-  opacity: 0; }
-
-.fadingText-enter.fadingText-enter-active {
-  opacity: 1;
-  transition: 25000ms; }
-
-.fadingText-leave {
-  opacity: 1; }
-
-.fadingText-leave.fadingText-leave-active {
-  opacity: 0;
-  transition: 38000ms; }
-
-.fadingText-appear {
-  opacity: 0;
-  display: none; }
-
-.fadingText-appear.fadingText-appear-active {
-  opacity: 1;
-  display: block;
-  transition: 38000ms; }
-
-.load-status {
-  position: relative;
-  width: 100%;
-  height: 60px; }
-  .load-status .loading {
-    width: 40px;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0; }
-
-.hidden {
-  visibility: hidden !important; }
-
-.visible {
-  visibility: visible !important; }
-
-.matrix {
-  margin: 1.0em 0 1.0em 45px;
-  padding: 10px 10px 10px 20px;
-  display: inline-block;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  background-color: #EEEEEE; }
-  .matrix input[type="submit"] {
-    background: #fff;
-    color: #333333;
-    cursor: pointer;
-    margin: 10px 20px 10px 0;
-    border-radius: 10px;
-    padding: 10px;
-    min-width: 120px;
-    display: inline-block;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    border: 1px solid rgba(0, 0, 0, 0.12);
-    outline: none;
-    text-decoration: none;
-    text-align: center; }
-
-/*CheckBoxとText */
-label.checkbox_text {
-  cursor: pointer;
-  position: relative;
-  padding-left: 25px;
-  margin-right: 20px;
-  overflow: hidden;
-  position: relative;
-  padding-left: 25px;
-  display: inline-block;
-  box-sizing: border-box;
-  width: 100%;
-  margin-bottom: 0.5em; }
-
-label.checkbox_text:before {
-  content: '';
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 0px;
-  top: 0;
-  border: 1px solid #B3B3B3;
-  z-index: 3; }
-
-label.checkbox_text:after {
-  content: '';
-  position: absolute;
-  top: 40%;
-  left: 6px;
-  display: block;
-  margin-top: -8px;
-  width: 8px;
-  height: 12px;
-  border-right: 3px solid #0FB0DF;
-  border-bottom: 3px solid #0FB0DF;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  z-index: 1; }
-
-label.checkbox_text input[type="checkbox"] {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  position: absolute;
-  left: -40px;
-  width: 20px;
-  height: 20px;
-  display: block;
-  box-shadow: 41px 0px #FFF;
-  z-index: 2;
-  margin: 0px;
-  padding: 0px; }
-
-label.checkbox_text input[type="checkbox"]:checked {
-  box-shadow: none; }
-
-label.checkbox_text input[type="checkbox"]:checked:focus {
-  box-shadow: 40px 0px #666;
-  opacity: 0.1; }
-
-label.checkbox_text input[type="checkbox"]:focus {
-  box-shadow: 41px 0px #EEE; }
-
-.star_innner {
-  color: #FDC44F;
-  font-size: 1.1em; }
-
 .message {
   opacity: 0; }
-
-.bgc {
-  opacity: 1 !important; }
 
 .bar-box {
   background: #fff;
@@ -553,3 +305,9 @@ label.checkbox_text input[type="checkbox"]:focus {
     margin-left: 70px; }
   .chat-output {
     padding: 20px; } }
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    width: 100%; }
+  .indexBody {
+    background-size: cover !important; } }
