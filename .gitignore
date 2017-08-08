@@ -7,3 +7,6 @@ package-lock.json
 # IntelliJ
 *.iml
 /.idea
+
+data.json
+test.js

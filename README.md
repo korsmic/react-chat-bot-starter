@@ -1,4 +1,4 @@
-# ReactRecomendChatBot
+# react-chat-bot-starter
 ---
 ## How to Use
 
